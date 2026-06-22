@@ -1,0 +1,3 @@
+class_label,cap-diameter_count,cap-diameter_mean,cap-diameter_std,cap-diameter_min,cap-diameter_median,cap-diameter_max,stem-height_count,stem-height_mean,stem-height_std,stem-height_min,stem-height_median,stem-height_max,stem-width_count,stem-width_mean,stem-width_std,stem-width_min,stem-width_median,stem-width_max
+edible,21745,7.8173400781788915,6.392004649095318,0.53,6.73,62.34,21745,7.041667969648195,3.583982785508624,2.0,6.23,33.25,21745,14.372603357093585,11.017056680493758,0.74,12.58,103.91
+poisonous,26993,5.907601229948505,3.9890167888153614,0.38,5.02,30.34,26993,6.2509598784870155,3.128129777292549,0.0,5.65,20.19,26993,10.450123735783352,8.770003638871954,0.0,7.74,58.95
