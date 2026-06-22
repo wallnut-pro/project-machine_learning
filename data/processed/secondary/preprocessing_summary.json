@@ -1,0 +1,61 @@
+{
+  "dataset_key": "secondary",
+  "dataset_name": "Secondary Mushroom Dataset",
+  "raw_path": "data\\raw\\secondary\\secondary_mushroom.csv",
+  "output_dir": "data\\processed\\secondary",
+  "target_column": "class",
+  "target_mapping": {
+    "e": 0,
+    "p": 1
+  },
+  "shape_before_cleaning": {
+    "rows": 61069,
+    "columns": 21
+  },
+  "shape_after_cleaning": {
+    "rows": 60923,
+    "columns": 17
+  },
+  "duplicate_rows_removed": 146,
+  "dropped_columns": [
+    "spore-print-color",
+    "stem-root",
+    "veil-color",
+    "veil-type"
+  ],
+  "missing_values_before_cleaning": {
+    "cap-surface": 14120,
+    "gill-attachment": 9884,
+    "gill-spacing": 25063,
+    "stem-root": 51538,
+    "stem-surface": 38124,
+    "veil-type": 57892,
+    "veil-color": 53656,
+    "ring-type": 2471,
+    "spore-print-color": 54715
+  },
+  "missing_values_after_preprocessing": {
+    "X_train_total": 0,
+    "X_test_total": 0
+  },
+  "class_distribution": {
+    "full": {
+      "0": 27181,
+      "1": 33742
+    },
+    "train": {
+      "0": 21745,
+      "1": 26993
+    },
+    "test": {
+      "0": 5436,
+      "1": 6749
+    }
+  },
+  "train_size": 48738,
+  "test_size": 12185,
+  "feature_counts": {
+    "before_encoding": 16,
+    "after_encoding": 105
+  }
+}

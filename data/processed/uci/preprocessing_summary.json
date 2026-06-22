@@ -1,0 +1,48 @@
+{
+  "dataset_key": "uci",
+  "dataset_name": "UCI Mushroom Dataset",
+  "raw_path": "data\\raw\\uci\\mushroom.csv",
+  "output_dir": "data\\processed\\uci",
+  "target_column": "class",
+  "target_mapping": {
+    "e": 0,
+    "p": 1
+  },
+  "shape_before_cleaning": {
+    "rows": 8124,
+    "columns": 23
+  },
+  "shape_after_cleaning": {
+    "rows": 8124,
+    "columns": 23
+  },
+  "duplicate_rows_removed": 0,
+  "dropped_columns": [],
+  "missing_values_before_cleaning": {
+    "stalk-root": 2480
+  },
+  "missing_values_after_preprocessing": {
+    "X_train_total": 0,
+    "X_test_total": 0
+  },
+  "class_distribution": {
+    "full": {
+      "0": 4208,
+      "1": 3916
+    },
+    "train": {
+      "0": 3366,
+      "1": 3133
+    },
+    "test": {
+      "0": 842,
+      "1": 783
+    }
+  },
+  "train_size": 6499,
+  "test_size": 1625,
+  "feature_counts": {
+    "before_encoding": 22,
+    "after_encoding": 117
+  }
+}
