@@ -1,0 +1,5 @@
+dataset,model,jumlah_fitur_input,tree_depth,jumlah_leaf,jumlah_estimator,encoded_root_feature,original_root_feature
+secondary,Decision Tree,105,25.0,206.0,,numeric__stem-width,stem-width
+secondary,Random Forest,105,,,100.0,,
+uci,Decision Tree,117,7.0,14.0,,categorical__odor_n,odor
+uci,Random Forest,117,,,100.0,,

@@ -1,0 +1,770 @@
+{
+  "tables": {
+    "baseline_metrics": "reports\\tables\\modeling\\baseline_metrics.csv",
+    "model_structure_summary": "reports\\tables\\modeling\\model_structure_summary.csv",
+    "feature_importance_uci": "reports\\tables\\modeling\\feature_importance_uci.csv",
+    "feature_importance_secondary": "reports\\tables\\modeling\\feature_importance_secondary.csv"
+  },
+  "datasets": {
+    "secondary": {
+      "decision_tree": {
+        "model_path": "artifacts\\models\\secondary\\decision_tree_baseline.joblib",
+        "prediction_path": "artifacts\\predictions\\secondary\\decision_tree_y_pred.npy",
+        "metrics": {
+          "dataset": "secondary",
+          "model": "Decision Tree",
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.9990151826015593,
+          "precision_poisonous": 0.9991109794043562,
+          "recall_poisonous": 0.9991109794043562,
+          "f1_poisonous": 0.9991109794043562,
+          "training_time_seconds": 0.6778719999711029,
+          "prediction_time_seconds": 0.0023458999930880964
+        },
+        "structure": {
+          "dataset": "secondary",
+          "model": "Decision Tree",
+          "jumlah_fitur_input": 105,
+          "tree_depth": 25,
+          "jumlah_leaf": 206,
+          "jumlah_estimator": null,
+          "encoded_root_feature": "numeric__stem-width",
+          "original_root_feature": "stem-width"
+        },
+        "top_feature_importance_encoded": [
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "numeric__stem-width",
+            "original_feature": "stem-width",
+            "importance": 0.13327011965742752
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "numeric__stem-height",
+            "original_feature": "stem-height",
+            "importance": 0.04976141141123808
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-spacing_d",
+            "original_feature": "gill-spacing",
+            "importance": 0.045177973390079666
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__stem-surface_unknown",
+            "original_feature": "stem-surface",
+            "importance": 0.04331411364034469
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-color_p",
+            "original_feature": "gill-color",
+            "importance": 0.03486614181884767
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__stem-color_w",
+            "original_feature": "stem-color",
+            "importance": 0.0300693158197043
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "numeric__cap-diameter",
+            "original_feature": "cap-diameter",
+            "importance": 0.028619111958686164
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__stem-surface_s",
+            "original_feature": "stem-surface",
+            "importance": 0.027340850033734602
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__stem-surface_g",
+            "original_feature": "stem-surface",
+            "importance": 0.024190547073060748
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-color_w",
+            "original_feature": "gill-color",
+            "importance": 0.02398385889081335
+          }
+        ],
+        "top_feature_importance_aggregated": [
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stem-width",
+            "importance": 0.13327011965742752
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stem-surface",
+            "importance": 0.1260629935750362
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "cap-surface",
+            "importance": 0.12045120928679595
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "gill-color",
+            "importance": 0.11047062142287986
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stem-color",
+            "importance": 0.07982138216779323
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "gill-attachment",
+            "importance": 0.06872778176393167
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "ring-type",
+            "importance": 0.06755019319662635
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "cap-color",
+            "importance": 0.05541771004274348
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "gill-spacing",
+            "importance": 0.05406751966143346
+          },
+          {
+            "dataset": "secondary",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stem-height",
+            "importance": 0.04976141141123808
+          }
+        ]
+      },
+      "random_forest": {
+        "model_path": "artifacts\\models\\secondary\\random_forest_baseline.joblib",
+        "prediction_path": "artifacts\\predictions\\secondary\\random_forest_y_pred.npy",
+        "metrics": {
+          "dataset": "secondary",
+          "model": "Random Forest",
+          "train_accuracy": 1.0,
+          "test_accuracy": 1.0,
+          "precision_poisonous": 1.0,
+          "recall_poisonous": 1.0,
+          "f1_poisonous": 1.0,
+          "training_time_seconds": 1.899630600004457,
+          "prediction_time_seconds": 0.04247290000785142
+        },
+        "structure": {
+          "dataset": "secondary",
+          "model": "Random Forest",
+          "jumlah_fitur_input": 105,
+          "tree_depth": null,
+          "jumlah_leaf": null,
+          "jumlah_estimator": 100,
+          "encoded_root_feature": null,
+          "original_root_feature": null
+        },
+        "top_feature_importance_encoded": [
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "numeric__stem-width",
+            "original_feature": "stem-width",
+            "importance": 0.08649849803970801
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "numeric__stem-height",
+            "original_feature": "stem-height",
+            "importance": 0.05790801983996243
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "numeric__cap-diameter",
+            "original_feature": "cap-diameter",
+            "importance": 0.05437311746856996
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__stem-color_w",
+            "original_feature": "stem-color",
+            "importance": 0.03563605882781308
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-spacing_d",
+            "original_feature": "gill-spacing",
+            "importance": 0.026649508195146575
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-color_w",
+            "original_feature": "gill-color",
+            "importance": 0.020553721085282205
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__stem-surface_unknown",
+            "original_feature": "stem-surface",
+            "importance": 0.020370399909165334
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-spacing_c",
+            "original_feature": "gill-spacing",
+            "importance": 0.020152811044740714
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-spacing_unknown",
+            "original_feature": "gill-spacing",
+            "importance": 0.01952961919079648
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-attachment_p",
+            "original_feature": "gill-attachment",
+            "importance": 0.018498821035152838
+          }
+        ],
+        "top_feature_importance_aggregated": [
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "cap-surface",
+            "importance": 0.11561512315281156
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "gill-attachment",
+            "importance": 0.10700080088560784
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stem-width",
+            "importance": 0.08649849803970801
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "gill-color",
+            "importance": 0.0853532234038124
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stem-color",
+            "importance": 0.08069896771920235
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stem-surface",
+            "importance": 0.08027116453792885
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "gill-spacing",
+            "importance": 0.07202946732710122
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "cap-color",
+            "importance": 0.06503197588855
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stem-height",
+            "importance": 0.05790801983996243
+          },
+          {
+            "dataset": "secondary",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "cap-shape",
+            "importance": 0.055609205154876426
+          }
+        ]
+      }
+    },
+    "uci": {
+      "decision_tree": {
+        "model_path": "artifacts\\models\\uci\\decision_tree_baseline.joblib",
+        "prediction_path": "artifacts\\predictions\\uci\\decision_tree_y_pred.npy",
+        "metrics": {
+          "dataset": "uci",
+          "model": "Decision Tree",
+          "train_accuracy": 1.0,
+          "test_accuracy": 1.0,
+          "precision_poisonous": 1.0,
+          "recall_poisonous": 1.0,
+          "f1_poisonous": 1.0,
+          "training_time_seconds": 0.018972999998368323,
+          "prediction_time_seconds": 0.0005341999931260943
+        },
+        "structure": {
+          "dataset": "uci",
+          "model": "Decision Tree",
+          "jumlah_fitur_input": 117,
+          "tree_depth": 7,
+          "jumlah_leaf": 14,
+          "jumlah_estimator": null,
+          "encoded_root_feature": "categorical__odor_n",
+          "original_root_feature": "odor"
+        },
+        "top_feature_importance_encoded": [
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__odor_n",
+            "original_feature": "odor",
+            "importance": 0.6177902473517449
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__stalk-root_c",
+            "original_feature": "stalk-root",
+            "importance": 0.17932234545923406
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__stalk-surface-below-ring_y",
+            "original_feature": "stalk-surface-below-ring",
+            "importance": 0.09852758640290787
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__spore-print-color_r",
+            "original_feature": "spore-print-color",
+            "importance": 0.03582957392097904
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__odor_a",
+            "original_feature": "odor",
+            "importance": 0.022585992565331357
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__odor_l",
+            "original_feature": "odor",
+            "importance": 0.02192347643771309
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__bruises_t",
+            "original_feature": "bruises",
+            "importance": 0.016225962553419345
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__ring-number_t",
+            "original_feature": "ring-number",
+            "importance": 0.005331464413833249
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__cap-surface_g",
+            "original_feature": "cap-surface",
+            "importance": 0.0018440607897824367
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__cap-shape_c",
+            "original_feature": "cap-shape",
+            "importance": 0.0006155915464542261
+          }
+        ],
+        "top_feature_importance_aggregated": [
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "odor",
+            "importance": 0.6622997163547893
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stalk-root",
+            "importance": 0.17932234545923406
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stalk-surface-below-ring",
+            "importance": 0.09852758640290787
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "spore-print-color",
+            "importance": 0.03582957392097904
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "bruises",
+            "importance": 0.016225962553419345
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "ring-number",
+            "importance": 0.005331464413833249
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "cap-surface",
+            "importance": 0.0018440607897824367
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "cap-shape",
+            "importance": 0.0006155915464542261
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "gill-size",
+            "importance": 3.6985586003782224e-06
+          },
+          {
+            "dataset": "uci",
+            "model": "Decision Tree",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "cap-color",
+            "importance": 0.0
+          }
+        ]
+      },
+      "random_forest": {
+        "model_path": "artifacts\\models\\uci\\random_forest_baseline.joblib",
+        "prediction_path": "artifacts\\predictions\\uci\\random_forest_y_pred.npy",
+        "metrics": {
+          "dataset": "uci",
+          "model": "Random Forest",
+          "train_accuracy": 1.0,
+          "test_accuracy": 1.0,
+          "precision_poisonous": 1.0,
+          "recall_poisonous": 1.0,
+          "f1_poisonous": 1.0,
+          "training_time_seconds": 0.19309969997266307,
+          "prediction_time_seconds": 0.031001700030174106
+        },
+        "structure": {
+          "dataset": "uci",
+          "model": "Random Forest",
+          "jumlah_fitur_input": 117,
+          "tree_depth": null,
+          "jumlah_leaf": null,
+          "jumlah_estimator": 100,
+          "encoded_root_feature": null,
+          "original_root_feature": null
+        },
+        "top_feature_importance_encoded": [
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__odor_n",
+            "original_feature": "odor",
+            "importance": 0.14129674194349848
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-size_n",
+            "original_feature": "gill-size",
+            "importance": 0.0666291846365107
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__odor_f",
+            "original_feature": "odor",
+            "importance": 0.05799133301137452
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-size_b",
+            "original_feature": "gill-size",
+            "importance": 0.052806372081350667
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__spore-print-color_h",
+            "original_feature": "spore-print-color",
+            "importance": 0.05268442584861926
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__stalk-surface-below-ring_k",
+            "original_feature": "stalk-surface-below-ring",
+            "importance": 0.051190698142675885
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__stalk-surface-above-ring_k",
+            "original_feature": "stalk-surface-above-ring",
+            "importance": 0.037258726220440914
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__ring-type_p",
+            "original_feature": "ring-type",
+            "importance": 0.03634602732264034
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__gill-color_b",
+            "original_feature": "gill-color",
+            "importance": 0.035291609764794916
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "encoded",
+            "encoded_feature": "categorical__bruises_t",
+            "original_feature": "bruises",
+            "importance": 0.026548506490508
+          }
+        ],
+        "top_feature_importance_aggregated": [
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "odor",
+            "importance": 0.24623064532767264
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "gill-size",
+            "importance": 0.11943555671786137
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "spore-print-color",
+            "importance": 0.08936299144508499
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stalk-surface-below-ring",
+            "importance": 0.07644044953329701
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "ring-type",
+            "importance": 0.06624311966247226
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stalk-surface-above-ring",
+            "importance": 0.061385918543493415
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "bruises",
+            "importance": 0.051048132357996434
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "gill-color",
+            "importance": 0.045125203756678195
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "stalk-root",
+            "importance": 0.04202676497920737
+          },
+          {
+            "dataset": "uci",
+            "model": "Random Forest",
+            "importance_view": "aggregated",
+            "encoded_feature": "",
+            "original_feature": "gill-spacing",
+            "importance": 0.03769920177087412
+          }
+        ]
+      }
+    }
+  }
+}
