@@ -1,0 +1,82 @@
+{
+  "dataset_key": "secondary",
+  "dataset_name": "Secondary Mushroom Dataset",
+  "raw_path": "data\\raw\\secondary\\secondary_mushroom.csv",
+  "analysis_split": {
+    "train_rows": 48738,
+    "test_rows": 12185,
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "duplicate_rows_removed": 146,
+  "dropped_columns": [
+    "spore-print-color",
+    "stem-root",
+    "veil-color",
+    "veil-type"
+  ],
+  "tables": {
+    "class_distribution": "reports\\tables\\eda\\secondary_class_distribution.csv",
+    "missing_values_before_cleaning": "reports\\tables\\eda\\secondary_missing_values_before_cleaning.csv",
+    "numeric_descriptive_stats": "reports\\tables\\eda\\secondary_numeric_descriptive_stats.csv",
+    "numeric_descriptive_by_class": "reports\\tables\\eda\\secondary_numeric_descriptive_by_class.csv",
+    "gill_color_vs_class": "reports\\tables\\eda\\secondary_gill_color_vs_class.csv",
+    "habitat_vs_class": "reports\\tables\\eda\\secondary_habitat_vs_class.csv",
+    "season_vs_class": "reports\\tables\\eda\\secondary_season_vs_class.csv",
+    "numeric_correlation": "reports\\tables\\eda\\secondary_numeric_correlation.csv",
+    "mutual_information_ranking": "reports\\tables\\eda\\secondary_mutual_information_ranking.csv"
+  },
+  "figures": {
+    "class_distribution": "reports\\figures\\eda\\secondary\\class_distribution.png",
+    "missing_values_before_cleaning": "reports\\figures\\eda\\secondary\\missing_values_before_cleaning.png",
+    "cap_diameter": "reports\\figures\\eda\\secondary\\cap_diameter_by_class.png",
+    "stem_height": "reports\\figures\\eda\\secondary\\stem_height_by_class.png",
+    "stem_width": "reports\\figures\\eda\\secondary\\stem_width_by_class.png",
+    "gill_color_vs_class": "reports\\figures\\eda\\secondary\\gill_color_vs_class.png",
+    "habitat_vs_class": "reports\\figures\\eda\\secondary\\habitat_vs_class.png",
+    "season_vs_class": "reports\\figures\\eda\\secondary\\season_vs_class.png",
+    "mutual_information_ranking": "reports\\figures\\eda\\secondary\\mutual_information_ranking.png"
+  },
+  "top_ranked_features": [
+    {
+      "feature": "stem-width",
+      "mutual_information": 0.06391902800995064
+    },
+    {
+      "feature": "stem-height",
+      "mutual_information": 0.044431151742608144
+    },
+    {
+      "feature": "stem-surface",
+      "mutual_information": 0.04211684036478465
+    },
+    {
+      "feature": "stem-color",
+      "mutual_information": 0.04057505864099051
+    },
+    {
+      "feature": "cap-diameter",
+      "mutual_information": 0.03573595972137822
+    },
+    {
+      "feature": "cap-color",
+      "mutual_information": 0.03125090177578613
+    },
+    {
+      "feature": "cap-surface",
+      "mutual_information": 0.030221875304043543
+    },
+    {
+      "feature": "ring-type",
+      "mutual_information": 0.02866319633561048
+    },
+    {
+      "feature": "gill-attachment",
+      "mutual_information": 0.02484112950309718
+    },
+    {
+      "feature": "cap-shape",
+      "mutual_information": 0.018908138551198522
+    }
+  ]
+}

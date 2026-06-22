@@ -1,0 +1,69 @@
+{
+  "dataset_key": "uci",
+  "dataset_name": "UCI Mushroom Dataset",
+  "raw_path": "data\\raw\\uci\\mushroom.csv",
+  "analysis_split": {
+    "train_rows": 6499,
+    "test_rows": 1625,
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "duplicate_rows_removed": 0,
+  "dropped_columns": [],
+  "tables": {
+    "class_distribution": "reports\\tables\\eda\\uci_class_distribution.csv",
+    "missing_values_before_cleaning": "reports\\tables\\eda\\uci_missing_values_before_cleaning.csv",
+    "odor_vs_class": "reports\\tables\\eda\\uci_odor_vs_class.csv",
+    "gill_color_vs_class": "reports\\tables\\eda\\uci_gill_color_vs_class.csv",
+    "feature_association_ranking": "reports\\tables\\eda\\uci_feature_association_ranking.csv",
+    "selected_cramers_v_matrix": "reports\\tables\\eda\\uci_selected_cramers_v_matrix.csv"
+  },
+  "figures": {
+    "class_distribution": "reports\\figures\\eda\\uci\\class_distribution.png",
+    "missing_values_before_cleaning": "reports\\figures\\eda\\uci\\missing_values_before_cleaning.png",
+    "odor_vs_class": "reports\\figures\\eda\\uci\\odor_vs_class.png",
+    "gill_color_vs_class": "reports\\figures\\eda\\uci\\gill_color_vs_class.png",
+    "selected_cramers_v_heatmap": "reports\\figures\\eda\\uci\\selected_cramers_v_heatmap.png",
+    "feature_association_ranking": "reports\\figures\\eda\\uci\\feature_association_ranking.png"
+  },
+  "top_ranked_features": [
+    {
+      "feature": "odor",
+      "cramers_v": 0.970148,
+      "chi_square": 6123.835549,
+      "p_value": 0.0
+    },
+    {
+      "feature": "spore-print-color",
+      "cramers_v": 0.755038,
+      "chi_square": 3712.396756,
+      "p_value": 0.0
+    },
+    {
+      "feature": "gill-color",
+      "cramers_v": 0.679044,
+      "chi_square": 3007.235278,
+      "p_value": 0.0
+    },
+    {
+      "feature": "ring-type",
+      "cramers_v": 0.603549,
+      "chi_square": 2371.037875,
+      "p_value": 0.0
+    },
+    {
+      "feature": "stalk-surface-above-ring",
+      "cramers_v": 0.591432,
+      "chi_square": 2275.94872,
+      "p_value": 0.0
+    }
+  ],
+  "selected_heatmap_features": [
+    "odor",
+    "spore-print-color",
+    "gill-color",
+    "ring-type",
+    "stalk-surface-above-ring",
+    "stalk-surface-below-ring"
+  ]
+}
