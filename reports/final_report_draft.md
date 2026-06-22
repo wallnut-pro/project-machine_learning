@@ -16,7 +16,7 @@ Draft ini disusun dari hasil aktual repository. Jika ada konflik dengan draft la
 
 ### 1.1 Latar Belakang
 
-Jamur merupakan komoditas pertanian dan pangan yang bernilai ekonomi, tetapi tidak semua jamur aman dikonsumsi. Dalam praktiknya, kemiripan ciri morfologi dapat menyulitkan identifikasi manual antara jamur layak konsumsi dan jamur beracun. Kesalahan paling berbahaya adalah ketika jamur beracun diprediksi layak konsumsi. [PERLU VERIFIKASI SITASI]
+Jamur digunakan sebagai bahan pangan, tetapi tidak semua jamur aman dikonsumsi. Dalam praktiknya, kemiripan ciri morfologi dapat menyulitkan identifikasi manual antara jamur layak konsumsi dan jamur beracun. Artikel Wagner, Heider, dan Hattab (2021) menekankan bahwa tugas klasifikasi jamur memang menantang karena data morfologi perlu dibuat, dikurasi, dan disimulasikan secara hati-hati untuk mendukung klasifikasi yang bermakna.
 
 Machine learning menawarkan pendekatan terukur untuk mempelajari pola dari ciri morfologi jamur. Pada penelitian ini, dua algoritma klasifikasi digunakan, yaitu Decision Tree dan Random Forest. Fokus evaluasi diarahkan pada recall untuk kelas poisonous agar risiko false negative dapat ditekan.
 
@@ -57,7 +57,7 @@ Machine learning adalah pendekatan komputasional yang mempelajari pola dari data
 
 ### 2.2 Jamur sebagai Komoditas Pertanian
 
-Jamur dapat menjadi komoditas pangan yang bernilai, tetapi tidak semua jenis aman dikonsumsi. Karena itu, klasifikasi otomatis berbasis ciri morfologi relevan bagi keamanan pangan. [PERLU VERIFIKASI SITASI]
+Jamur dapat digunakan sebagai bahan pangan, tetapi tidak semua jenis aman dikonsumsi. Wagner et al. (2021) menunjukkan bahwa klasifikasi berbasis ciri morfologi memerlukan data yang dikurasi dengan baik karena kemiripan karakteristik dapat menyulitkan pembedaan jamur edible dan poisonous.
 
 ### 2.3 Decision Tree
 
@@ -110,7 +110,7 @@ Recall poisonous dipakai sebagai skor utama pada tuning karena false negative ad
 
 ### 2.9 Penelitian Terdahulu
 
-Draft lama menyebut beberapa referensi terkait ID3, Decision Tree, dan Random Forest, tetapi bibliografinya belum diverifikasi dari repository. Oleh karena itu, bagian penelitian terdahulu harus diberi tanda `[PERLU VERIFIKASI SITASI]` sebelum naskah final diserahkan.
+Draft lama memuat beberapa referensi penelitian terdahulu terkait klasifikasi jamur dan algoritma pohon keputusan. Namun, tidak semua entri berhasil diverifikasi secara bibliografis. Hasil audit referensi tersebut dicatat di [reports/citation_verification.md](D:\my-kisah\yayayaya\college\machine-learning\reports\citation_verification.md), dan hanya sumber yang dapat dipertanggungjawabkan dipertahankan dalam naskah utama.
 
 ## BAB III METODOLOGI PENELITIAN
 
@@ -119,7 +119,7 @@ Draft lama menyebut beberapa referensi terkait ID3, Decision Tree, dan Random Fo
 | Dataset | Sumber | Data awal | Fitur input mentah | Target |
 |---|---|---:|---:|---|
 | UCI Mushroom Dataset | UCI Machine Learning Repository via `ucimlrepo`, dataset ID 73 | 8.124 | 22 | `class` |
-| Secondary Mushroom Dataset | Dennis Wagner, 2020 [PERLU VERIFIKASI SITASI] | 61.069 | 20 | `class` |
+| Secondary Mushroom Dataset | Wagner, Heider, dan Hattab (2021); dataset simulasi dibuat pada 2020 dan artikel ilmiahnya diterbitkan pada 2021 | 61.069 | 20 | `class` |
 
 Path yang digunakan:
 
@@ -382,7 +382,7 @@ Gambar relevan:
 
 ### 5.2 Saran
 
-1. Verifikasi sitasi sebelum laporan dikirim final.
+1. Pastikan daftar pustaka final tetap konsisten dengan sumber yang sudah diverifikasi dan jangan menambahkan referensi tanpa audit bibliografis.
 2. Tambahkan external validation atau group-wise split jika metadata biologis tersedia.
 3. Lakukan analisis probabilitas dan threshold untuk skenario berisiko tinggi.
 
@@ -426,10 +426,6 @@ machine-learning/
 25 passed in 17.28s
 ```
 
-### Lampiran E. Catatan Sitasi
+## DAFTAR PUSTAKA
 
-Bagian yang masih membutuhkan verifikasi sumber diberi tanda:
-
-```text
-[PERLU VERIFIKASI SITASI]
-```
+Wagner, D., Heider, D., & Hattab, G. (2021). Mushroom data creation, curation, and simulation to support classification tasks. *Scientific Reports, 11*, 8134. https://doi.org/10.1038/s41598-021-87602-3
