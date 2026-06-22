@@ -1,0 +1,17 @@
+{
+  "dataset": "uci",
+  "dataset_name": "UCI Mushroom Dataset",
+  "model_key": "decision_tree",
+  "model_name": "Decision Tree",
+  "best_params": {
+    "class_weight": "balanced",
+    "max_depth": null,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2
+  },
+  "best_recall_poisonous_cv": 1.0,
+  "tuning_time_seconds": 2.3371332000242546,
+  "train_rows": 6499,
+  "test_rows": 1625,
+  "test_set_used_in_grid_search": false
+}

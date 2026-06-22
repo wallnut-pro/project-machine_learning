@@ -1,0 +1,164 @@
+{
+  "datasets": {
+    "secondary": {
+      "best_tuned_model": {
+        "model": "Random Forest",
+        "accuracy": 1.0,
+        "precision_poisonous": 1.0,
+        "recall_poisonous": 1.0,
+        "f1_poisonous": 1.0,
+        "FP": 0,
+        "FN": 0
+      },
+      "models": {
+        "decision_tree": {
+          "best_params": {
+            "class_weight": "balanced",
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+          },
+          "best_recall_poisonous_cv": 0.9982588133147485,
+          "baseline_metrics": {
+            "accuracy": 0.9990151826015593,
+            "precision_poisonous": 0.9991109794043562,
+            "recall_poisonous": 0.9991109794043562,
+            "f1_poisonous": 0.9991109794043562,
+            "FP": 6,
+            "FN": 6
+          },
+          "tuned_metrics": {
+            "accuracy": 0.9990972507180961,
+            "precision_poisonous": 0.9988155167308261,
+            "recall_poisonous": 0.9995554897021781,
+            "f1_poisonous": 0.9991853662149152,
+            "FP": 8,
+            "FN": 3
+          },
+          "complexity_change": {
+            "baseline_tree_depth": 25,
+            "tuned_tree_depth": 32,
+            "baseline_leaf_count": 206,
+            "tuned_leaf_count": 247,
+            "baseline_n_estimators": null,
+            "tuned_n_estimators": null
+          }
+        },
+        "random_forest": {
+          "best_params": {
+            "class_weight": null,
+            "max_depth": null,
+            "max_features": "sqrt",
+            "min_samples_split": 2,
+            "n_estimators": 100
+          },
+          "best_recall_poisonous_cv": 1.0,
+          "baseline_metrics": {
+            "accuracy": 1.0,
+            "precision_poisonous": 1.0,
+            "recall_poisonous": 1.0,
+            "f1_poisonous": 1.0,
+            "FP": 0,
+            "FN": 0
+          },
+          "tuned_metrics": {
+            "accuracy": 1.0,
+            "precision_poisonous": 1.0,
+            "recall_poisonous": 1.0,
+            "f1_poisonous": 1.0,
+            "FP": 0,
+            "FN": 0
+          },
+          "complexity_change": {
+            "baseline_tree_depth": null,
+            "tuned_tree_depth": null,
+            "baseline_leaf_count": null,
+            "tuned_leaf_count": null,
+            "baseline_n_estimators": 100,
+            "tuned_n_estimators": 100
+          }
+        }
+      }
+    },
+    "uci": {
+      "best_tuned_model": {
+        "model": "Decision Tree",
+        "accuracy": 1.0,
+        "precision_poisonous": 1.0,
+        "recall_poisonous": 1.0,
+        "f1_poisonous": 1.0,
+        "FP": 0,
+        "FN": 0
+      },
+      "models": {
+        "decision_tree": {
+          "best_params": {
+            "class_weight": "balanced",
+            "max_depth": null,
+            "min_samples_leaf": 2,
+            "min_samples_split": 2
+          },
+          "best_recall_poisonous_cv": 1.0,
+          "baseline_metrics": {
+            "accuracy": 1.0,
+            "precision_poisonous": 1.0,
+            "recall_poisonous": 1.0,
+            "f1_poisonous": 1.0,
+            "FP": 0,
+            "FN": 0
+          },
+          "tuned_metrics": {
+            "accuracy": 1.0,
+            "precision_poisonous": 1.0,
+            "recall_poisonous": 1.0,
+            "f1_poisonous": 1.0,
+            "FP": 0,
+            "FN": 0
+          },
+          "complexity_change": {
+            "baseline_tree_depth": 7,
+            "tuned_tree_depth": 6,
+            "baseline_leaf_count": 14,
+            "tuned_leaf_count": 19,
+            "baseline_n_estimators": null,
+            "tuned_n_estimators": null
+          }
+        },
+        "random_forest": {
+          "best_params": {
+            "class_weight": null,
+            "max_depth": null,
+            "max_features": "sqrt",
+            "min_samples_split": 2,
+            "n_estimators": 100
+          },
+          "best_recall_poisonous_cv": 1.0,
+          "baseline_metrics": {
+            "accuracy": 1.0,
+            "precision_poisonous": 1.0,
+            "recall_poisonous": 1.0,
+            "f1_poisonous": 1.0,
+            "FP": 0,
+            "FN": 0
+          },
+          "tuned_metrics": {
+            "accuracy": 1.0,
+            "precision_poisonous": 1.0,
+            "recall_poisonous": 1.0,
+            "f1_poisonous": 1.0,
+            "FP": 0,
+            "FN": 0
+          },
+          "complexity_change": {
+            "baseline_tree_depth": null,
+            "tuned_tree_depth": null,
+            "baseline_leaf_count": null,
+            "tuned_leaf_count": null,
+            "baseline_n_estimators": 100,
+            "tuned_n_estimators": 100
+          }
+        }
+      }
+    }
+  }
+}

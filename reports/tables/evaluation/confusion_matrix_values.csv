@@ -1,0 +1,9 @@
+dataset,model,version,TN,FP,FN,TP
+secondary,Decision Tree,baseline,5430,6,6,6743
+secondary,Random Forest,baseline,5436,0,0,6749
+secondary,Decision Tree,tuned,5428,8,3,6746
+secondary,Random Forest,tuned,5436,0,0,6749
+uci,Decision Tree,baseline,842,0,0,783
+uci,Random Forest,baseline,842,0,0,783
+uci,Decision Tree,tuned,842,0,0,783
+uci,Random Forest,tuned,842,0,0,783
