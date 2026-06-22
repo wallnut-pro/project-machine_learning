@@ -1,0 +1,5 @@
+dataset,model,best_params_json,best_recall_poisonous_cv,tuning_time_seconds,tree_depth,leaf_count,n_estimators,encoded_root_feature,original_root_feature,test_recall_poisonous,test_f1_poisonous
+secondary,Decision Tree,"{""class_weight"": ""balanced"", ""max_depth"": null, ""min_samples_leaf"": 1, ""min_samples_split"": 2}",0.9982588133147485,57.76149369997438,32.0,247.0,,numeric__stem-width,stem-width,0.9995554897021781,0.9991853662149152
+secondary,Random Forest,"{""class_weight"": null, ""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_split"": 2, ""n_estimators"": 100}",1.0,364.58093259995803,,,100.0,,,1.0,1.0
+uci,Decision Tree,"{""class_weight"": ""balanced"", ""max_depth"": null, ""min_samples_leaf"": 2, ""min_samples_split"": 2}",1.0,2.3371332000242546,6.0,19.0,,categorical__odor_n,odor,1.0,1.0
+uci,Random Forest,"{""class_weight"": null, ""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_split"": 2, ""n_estimators"": 100}",1.0,15.996550899988506,,,100.0,,,1.0,1.0

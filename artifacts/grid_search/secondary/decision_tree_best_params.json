@@ -1,0 +1,17 @@
+{
+  "dataset": "secondary",
+  "dataset_name": "Secondary Mushroom Dataset",
+  "model_key": "decision_tree",
+  "model_name": "Decision Tree",
+  "best_params": {
+    "class_weight": "balanced",
+    "max_depth": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2
+  },
+  "best_recall_poisonous_cv": 0.9982588133147485,
+  "tuning_time_seconds": 57.76149369997438,
+  "train_rows": 48738,
+  "test_rows": 12185,
+  "test_set_used_in_grid_search": false
+}
